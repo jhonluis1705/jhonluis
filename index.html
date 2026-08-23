@@ -1,32 +1,62 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MEU PRIMEIRO SITE</title>
-    <linK rel="stylesheet" href="style.css">
- </head>   
-<BODY>
-    
-    <h1>OLA! EU SOU SERGIO LUIS</h1>
-    
-    <P>ESTE E MEU PRIMEIRO SITE DO ZERO</P>
-    
-        <H2>SOBRE MIM</H2>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>sergio luis silva  - desenvolvedor</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <h2>sergio<span>.DEV</span></h2>
+                <ul>
+                    <li><a href="#inicio">inicio</a></li>
+                    <li><a href="#sobre">sobre</a></li>
+                    <li><a href="#contato>contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="inicio class="hero">
+        <div class="hero-text">
+        <h1>Ola, eu sou <span>Sergio Luis Silva</span></h1>
+        <p>De Camacari-Bahia,44 anos, comecando minha jornada para me tornar um programador profissional.</p>
+        <button onclick="mudarCor()">Clique pra mudar o tema!</button>
+        <a href="#contato" class="btn-contato">fale comigo</a>
+        </div>
+        <div class="hero-img">
+        <img src="https://via.placeholder.com/300" alt="foto sergio" id="minhaFoto">
+        <p style="font-size:12px; margin-top:10px;">Depois a gente coloca sua foto de verdade aqui</p>
+        </div>
+                    </section>
+        <section id="sobre" class="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Meu Nome e Sergio luis silva, tenho 44 anos e sou de Camacari- Bahia. Estou aprendendo a programar e meu objetivo e me tornar um programador profissional. comecei a programar agora e ja coloquei meu primeiro site no ar!
+        </p>
+        <div class="skills">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>GitHub</span>
+        </div>
+        </section>
+        <section id="contato" class="contato">
+        <h2>contato</h2>
+        <p>Entre em contato comigo atraves do formulario abaixo.</p>
+        <form>
+        <input type="text" placeholder="Sergio Luis" required>
+        <input type="email" placeholder="sergioluis6022@gmail.com" required>
+        <textarea placeholder="sua mensagem"></textarea>
+        <button type="submit">Enviar Mensagem</button>
+        </form>
+        </section>
+        <footer>
+        <p> 2026 Sergio Luis Silva- camacari-bahia.Todos os direitos reservados.</p>
+        </footer>
+                        < scrypt src="scrypt.js"></scrypt>
+                    </body>
+                    </html>
+        </footer>
         
-        <P>EU MORO EM CAMACARI E ESTOU APRENDENDO A PROGRAMAR</P>
-
-        <img src="IMG-20260524-WA0002(1).jpg" alt="Foto do sergio">
-
-        <button onclick="mudarCor()">CLICA EM MIM</button>
-    
-    
-        <P>2026 FEITO POR MIM</P>
-    
-    <script>
-        function mudarCor() { alert( "FUNCIONOU!" ); document.body.style.backgroundColor = "purple"; }
-    </script>
-
-
-</BODY>
-</html>
+        </form>
+    </body>
