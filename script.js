@@ -1,4 +1,4 @@
-function mudarCor() {document.body.style.backgroundColor ="purple";}
+
 document.addEventListener('DOMContentLoaded',()=>{
 const btnTema = document.getelementById('toggletema');
 const btn= document.getElementById('btnsaudacao');
