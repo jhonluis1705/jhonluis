@@ -1,37 +1,34 @@
-body  {
-    BACKGROUND: LINEAR-GRADIENT(TO RIGHT, #4FACFE, #00F2FE);
-    FONT-FAMILY: ARIAL, SANS-SERIF;
-    COLOR: WHITE;
-    TEXT-ALIGN: CENTER;
-    PADDING: 50PX;
-}
-H1 {
-    COLOR:  YELLOW;
-    FONT-SIZE: 40PX;
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial,sans-serif;}
+body {background: #0f172a; color: white; line-height: 1.6;}
+header { background: 1e293b; padding: 20px 8%; position: sticky; top: 0; z-index: 100;}
+nav{display: flex; justify-content: space-between; align-items: center;}
+nav h2 span {color:#38bdf8;}
+nav ul {display: flex; list-style: none;gap: 20px;}
+nav a {color: white; text-decoration: none;}
+nav a :hover{color #38bdf8;}
+.hero {display:flex; justify-content: space-between; align-items:center; padding: 80px;gap: 40px; flex-wrap:wrap;}
+.hero-text h1 {font-size:2.5rem; margin-botton:20px;}
+.hero-text h1 span {color: #38bdf8;}
+.hero-text p {color: #94a3b8;margin-botton: 25px; font-size: 1.1rem;}
+.hero-text button, .btn contato {background: #38bdf8; color: #0f172a; border: none; padding: 12px 24px;}
+.hero-text button:hover{background: white;}
+.btn-contato {background: transparent; border: 1px solid #38bdf8; color: #38bdf8;}
+.hero-img img{width: 280px; height: 280px; border-radius: 50%; border: 4px solid#38bdf8;object-fit: cover;}
+.sobre, .contato {padding: 80px 8%; text-align: center; background: #1e293b; margin-top: 20px;}
+.sobre h2, .contato h2{font-size: 2rem; margin-botton: 20px; color: #38bdf8;}
+.sobre p, .contato p {color: #943b8; max-width: 700px; margin: 0 auto 30px;}
+.skills span {background: #0f172a; border: 1px solid #38bdf8;color: #38bdf8; padding: 8px 16px; border-radius: 20px; margin: 5px; display: inline-block;}
+.contato {background: #0f172a;}
+form {max-width: 500px; margin: 0 auto; display: flex; flex-direction: column; gap: 15px;}
+input, textarea {padding: 12px; border-radius: 8px; border: 1px solid #334155; background: #1e293b; color: white;}
+form button { background: #38bdf8; color: #0f172a; border: none; padding: 12px; border-radius: 8px; font- weight: bold; cursor: poiter;}
+footer {text-align: center; padding: 20px; background: #1e293b;color:#64748b; font-size: 0.9rem;}
+.light-mode {background: f1f5f9; color:#0f172a;}
+.light-mode header, .light-mode .sobre, .light-mode footer{background: white;}
+.light-mode .contato {background:#e2e8fo;}
 
 
-}
-H2  {COLOR: #FFF700;}
-P {FONT-SIZE: 18PX;}
-HEADER,  MAIN,  FOOTER  {BACKGROUND: WHITE;
-COLOR: #333;
-PADDING: 20PX;
-MARGIN: 20PX AUTO;
-BORDER-RADIUS: 15PX;
-WIDTH: 80%;
-BOX-SHADOW: 0PX 4PX 10PX BLACK;}
-img {width: 100PX;
-border-radius: 50%;
-border: 4px solid yellow;
-margin-top: 15px;}
-button  {background-color: yellow;
-color: black;
-padding: 10PX 20PX;
-border: none;
-border-radius: 10PX;
-font-size: 18PX;
-margin-top: 20PX;
-cursor: pointer;}
+
 
 
 
