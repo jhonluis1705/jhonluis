@@ -1,0 +1,44 @@
+body  {
+    BACKGROUND: LINEAR-GRADIENT(TO RIGHT, #4FACFE, #00F2FE);
+    FONT-FAMILY: ARIAL, SANS-SERIF;
+    COLOR: WHITE;
+    TEXT-ALIGN: CENTER;
+    PADDING: 50PX;
+}
+H1 {
+    COLOR:  YELLOW;
+    FONT-SIZE: 40PX;
+
+
+}
+H2  {COLOR: #FFF700;}
+P {FONT-SIZE: 18PX;}
+HEADER,  MAIN,  FOOTER  {BACKGROUND: WHITE;
+COLOR: #333;
+PADDING: 20PX;
+MARGIN: 20PX AUTO;
+BORDER-RADIUS: 15PX;
+WIDTH: 80%;
+BOX-SHADOW: 0PX 4PX 10PX BLACK;}
+img {width: 100PX;
+border-radius: 50%;
+border: 4px solid yellow;
+margin-top: 15px;}
+button  {background-color: yellow;
+color: black;
+padding: 10PX 20PX;
+border: none;
+border-radius: 10PX;
+font-size: 18PX;
+margin-top: 20PX;
+cursor: pointer;}
+
+
+
+
+
+
+
+
+
+

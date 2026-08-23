@@ -1,0 +1,1 @@
+function mudarCor() {document.body.style.backgroundColor ="purple";}
